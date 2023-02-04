@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: url('https://kep.cdn.indexvas.hu/1/0/3839/38396/383967/38396757_f39b4e2a7917778a457e539a59bf4be5_wm.jpg') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.working-area {
+  width: 654px;
+  max-width: calc(100vw - 30px);
+  max-height: calc(100vw - 30px);
+  background-color: rgba(247, 239, 239, 0.5);
+  font-size: larger;
+  text-align: center;
+  color:rgb(58, 26, 4);
+  margin: 250px;
+}
+
+.author {
+  color:rgb(26, 32, 198);
+}
+
+.links {
+  font-size: small;
+}
+
+a {
+  color: greenyellow;
+}
+
+a:hover {
+  font-size: larger;
+  color: brown;
+}
